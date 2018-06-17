@@ -2398,9 +2398,20 @@
 			max-width: 40%;
 		}
 
-			.image.left img, .image.right img {
+		.image.avatar {
+			max-width: 15%;
+		}
+
+			.image.left img, .image.right img ,.image.avatar img{
 				width: 100%;
 			}
+
+		
+		.image.avatar {
+			float: left;
+			margin: 0 1.5em 1em 0;
+			top: 0.25em;
+		}	
 
 		.image.left {
 			float: left;
@@ -2412,6 +2423,7 @@
 			float: right;
 			margin: 0 0 1em 1.5em;
 			top: 0.25em;
+	
 		}
 
 		.image.fit {
@@ -3817,11 +3829,4 @@
 				padding: 3em 0 1em 0;
 			}
 
-		}
-		#share-buttons img {
-			width: 35px;
-			padding: 5px;
-			border: 0;
-			box-shadow: 0;
-			display: inline;
 		}
