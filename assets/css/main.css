@@ -3354,7 +3354,7 @@
 		.video .caption {
 			color: #c0c5c9;
 			padding: 1.5em;
-			font-size: 1.25em;
+			font-size: 1.50em;
 			font-weight: 300;
 			margin: 0;
 		}
@@ -3830,3 +3830,4 @@
 			}
 
 		}
+		#fb_div { background-color: #444; }
