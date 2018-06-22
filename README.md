@@ -1,6 +1,6 @@
 # Trabalho de CSCW - Unilasalle - RJ 
 
-## Link da Aplicação: [Tutorial](https://github.com/danielcampanha)
+## Link da Aplicação: [Tutorial](https://grupo2.herokuapp.com/home.html)
 ### Grupo 2 
 
 ### Resumo 
