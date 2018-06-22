@@ -7,22 +7,24 @@
 <html>
 
 <head>
-	<title>Generic - Broadcast by TEMPLATED</title>
+	<title>Google Presetation Tutorial</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
 </head>
 
-<body class="subpage">
 
-	<script>(function (d, s, id) {
-			var js, fjs = d.getElementsByTagName(s)[0];
-			if (d.getElementById(id)) return;
-			js = d.createElement(s); js.id = id;
-			js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.0';
-			fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
-	</script>
+<body class="subpage">
+<div id="fb-root"></div>
+
 
 	<!-- Header -->
 	<header id="header">
@@ -51,7 +53,6 @@
 								<h5>19/06/2018</h5>
 							</li>
 						</ul>
-
 					</div>
 					<span class="image avatar">
 						<img src="images/pic02.jpg" alt="" />
@@ -68,7 +69,6 @@
 							<li><a href="cap_3.html" class="button small">Prev</a></li>
 							<li><a href="cap_2.html" class="button small">Next</a></li>
 						</ul>
-
 						<div class="box">
 							<!-- I got these buttons from simplesharebuttons.com -->
 							<div id="share-buttons">
@@ -106,17 +106,13 @@
 									<img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
 								</a>
 							</div>
+							<div class="fb-comments" data-href="https://grupo2.herokuapp.com/" data-width="500" data-numposts="5"></div>
 						</div>
-
-					</div>
+					</div>		
 				
-
 				</div>
 
 		</section>
-
-
-
 		<!-- Footer -->
 		<footer id="footer">
 			<div class="inner">
@@ -137,6 +133,7 @@
 		<script src="assets/js/skel.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+
 
 </body>
 
